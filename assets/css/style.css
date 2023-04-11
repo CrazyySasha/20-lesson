@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.download-sec {
+    margin-top: 10rem;
+    background-color: #4A3AFF;
+}
+
+
+.download-card {
+    margin-top: -7.5rem;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+.download-container {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.download-email-input {
+    padding: 29px 25px;
+    border: none;
+    border-radius: 9999px;
+    min-width: 532.33px;
+}
+
+.download-email-input::placeholder {
+    font-size: 18px;
+    line-height: 20px;
+    color: #6F6C90;
+}
+
+.download-btn {
+    padding: 18px 40px;
+    border-radius: 9999px;
+    font-size: 18px;
+    line-height: 20px;
+    border: none;
+    background-color: #4A3AFF;
+    position: absolute;
+    right: 10px;
+    /* top: 9px; */
+    top: 50%;
+    /* margin-top: -50%; */
+    transform: translateY(-50%);
+
+}
+
+.download-form {
+    position: relative;
+}
